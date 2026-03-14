@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Xin chào thế giới!"
 date: 2026-03-15
 draft: false
 tags: ["hello"]

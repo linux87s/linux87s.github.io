@@ -1,6 +1,7 @@
 services:
   hugo:
     image: hugomods/hugo:exts
+    container_name: hugo-dev
     volumes:
       - .:/site
     working_dir: /site

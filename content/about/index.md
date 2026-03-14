@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Về tôi"
 layout: "page"
 ---
 

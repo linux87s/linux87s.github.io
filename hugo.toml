@@ -1,13 +1,15 @@
 baseURL = 'https://linux87s.github.io/'
-languageCode = 'en-us'
+languageCode = 'vi'
+defaultContentLanguage = 'vi'
 title = 'linux87s'
 theme = 'PaperMod'
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = 'production'
   author = 'linux87s'
-  description = 'Personal blog'
+  description = 'Tổng hợp các ghi chú của tôi.'
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowPostNavLinks = true
@@ -16,15 +18,15 @@ paginate = 10
 
 [menu]
   [[menu.main]]
-    name = 'Posts'
+    name = 'Bài viết'
     url = '/posts/'
     weight = 1
   [[menu.main]]
-    name = 'Tags'
+    name = 'Thẻ'
     url = '/tags/'
     weight = 2
   [[menu.main]]
-    name = 'About'
+    name = 'Về tôi'
     url = '/about/'
     weight = 3
 
