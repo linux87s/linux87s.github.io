@@ -5,4 +5,4 @@ draft: false
 tags: ["hello"]
 ---
 
-Welcome to my blog! This is the first post.
+Chào mừng đến với blog của tôi! Đây là bài viết đầu tiên.
