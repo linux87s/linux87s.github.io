@@ -1,0 +1,29 @@
+baseURL = 'https://linux87s.github.io/'
+languageCode = 'en-us'
+title = 'linux87s'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = 'production'
+  author = 'linux87s'
+  description = 'Personal blog'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 1
+  [[menu.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 2
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 3

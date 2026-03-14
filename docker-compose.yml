@@ -1,0 +1,9 @@
+services:
+  hugo:
+    image: hugomods/hugo:exts
+    volumes:
+      - .:/site
+    working_dir: /site
+    ports:
+      - "1313:1313"
+    command: hugo server --buildDrafts --bind 0.0.0.0 --baseURL http://localhost:1313
